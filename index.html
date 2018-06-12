@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+    <title>Aksamaya Studio</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <link href = "css/mdb.min.css" rel = "stylesheet">
+
+    <!--FONT AWESOME-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!--[if lt IE 9]>
+    <script src = "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src = "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300, Roboto+Condensed:300, Roboto:300, Titillium+Web:600, Lato, Overpass+Mono:300" rel="stylesheet">
+
+    <!--MELVIN CSS-->
+    <link href = "css/melvin.css" rel = "stylesheet">
+</head>
+
+<body>
+
+<!--NAV-->
+ <div class="logo wow fadeIn">
+    <img src="picture/logo.png" alt="aksamayaLogo">
+</div>
+<hr class="hr-logo wow fadeIn">
+
+<div class="Navbar wow fadeIn" id="home">
+    <div class="Navbar__Link-brand">
+        <img src="picture/logo-kecil.png" alt="aksamayaLogo">
+    </div>
+    <div class="Navbar__Link-toggle" >
+        <i class="fa fa-bars fa-lg fa-2x" id="toggle"></i>
+    </div>
+    <nav class="Navbar__Items">
+        <a href="#home" class="active-menu wow fadeInUp">HOME</a>
+        <a href="products.html" class="wow fadeInUp">PRODUCTS</a>
+        <a href="technology.html" class="wow fadeInUp">TECHNOLOGY</a>
+        <a href="#about" class="wow fadeInUp">ABOUT</a>
+    </nav>
+</div>
+
+<!-- CAROUSEL -->
+<div id = "myCarousel" class = "carousel slide animated fadeIn" data-ride="carousel">
+ 
+    <!-- Carousel indicators -->
+    <ol class = "carousel-indicators">
+        <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+        <li data-target = "#myCarousel" data-slide-to = "1"></li>
+        <li data-target = "#myCarousel" data-slide-to = "2"></li>
+    </ol>
+
+    <!-- Carousel items -->
+    <div class = "carousel-inner">
+        <div class = "item active">
+            <img class="img-responsive" src = "picture/g1.jpg" alt = "First slide">
+            <p id="slide1" class="wow fadeInLeft">Aksamaya Studio is the greatest studio ever.</p>
+        </div>
+
+        <div class = "item">
+            <img class="img-responsive" src = "picture/g2.jpg" alt = "Second slide">
+            <p id="slide2" class="wow fadeInDown">Who can against Aksamaya if Sanhan still Chinese?</p>
+        </div>
+
+        <div class = "item">
+            <img class="img-responsive" src = "picture/g3.jpg" alt = "Third slide">
+            <p id="slide3" class="wow fadeInRight">Make Setrasari Great Again!</p>
+        </div>
+    </div>
+
+    <!-- Carousel nav -->
+    <a class = "carousel-control left" href = "#myCarousel" data-slide = "prev">&lsaquo;</a>
+    <a class = "carousel-control right" href = "#myCarousel" data-slide = "next">&rsaquo;</a>
+
+</div>
+
+<!-- SENTENCE -->
+<div class="container-fluid" id="sentence">
+    <div class="row">
+        <div class="col-md-12 wow fadeIn">
+            <i class="fa fa-quote-left fa-pull-left"></i>
+                <blockquote id="quotes">A sense of presence is something that only VR can bring to the market, an experience that gives you a <b>really strong sense of presence</b> somewhere else.</blockquote>
+                <p id="quotes-person">Shuhei Yoshida, President of Sony Computer Entertainment.</p>    
+        </div>
+    </div>
+</div>
+
+<!--PRODUCTS-->
+<div id="products" class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 col-products">
+            <div class="view overlay products-img">
+                <img src="picture/sanhan.jpg" class="wow fadeIn img-products" alt="">  
+                <a href="products.html#vrmode">
+                    <div class="mask flex-center rgba-stylish-strong">
+                        <p class="wow fadeIn products-explain">VIRTUAL REALITY MODE</p>
+                    </div>    
+                </a>          
+            </div>
+        </div>
+        <div class="col-md-4 col-products">
+            <div class="view overlay products-img">
+                <img src="picture/sanhan.jpg" class="wow fadeIn img-products" alt="">                
+                <a href="products.html#video">
+                    <div class="mask flex-center rgba-stylish-strong">
+                        <p class="wow fadeIn products-explain">360 VIDEO AND PICTURE</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-products">
+                <div class="view overlay products-img">
+                    <img src="picture/sanhan.jpg" class="wow fadeIn img-products" alt="">
+                    <a href="products.html#walk">
+                        <div class="mask flex-center rgba-stylish-strong">
+                            <p class="wow fadeIn products-explain">WALKTHROUGH MODE</p>
+                        </div>
+                    </a>
+                </div>
+        </div>
+    </div>
+
+    <div class="row">
+         <div class="col-md-4 col-products">
+            <div class="view overlay products-img">
+                <img src="picture/sanhan.jpg" class="wow fadeIn img-products" alt="">            
+                <a href="products.html#immersive">
+                    <div class="mask flex-center rgba-stylish-strong">
+                        <p class="wow fadeIn products-explain">IMMERSIVE INTERACTIVE MODE</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-products">
+            <div class="view overlay products-img">
+                <img src="picture/sanhan.jpg" class="wow fadeIn img-products" alt="">
+                <a href="products.html#express">
+                    <div class="mask flex-center rgba-stylish-strong">
+                        <p class="wow fadeIn products-explain">EXPRESS 12 HOURS PROJECT</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-products">
+            <div class="view overlay products-img">
+                <img src="picture/sanhan.jpg" class="wow fadeIn img-products" alt="">
+                    <a href="products.html#add">
+                        <div class="mask flex-center rgba-stylish-strong">
+                            <p class="wow fadeIn products-explain">ADDITIONAL FEATURES BY REQUEST</p>
+                        </div>
+                    </a>            
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+<!-- VIDEO -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12" id="video">
+            <video width="100%" autoplay muted loop class="wow fadeIn">
+              <source src="video/aksamaya-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>    
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT US -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 contact-us wow fadeIn">
+            <p>Let’s build something together.</p>
+            <p id="contact-us-p2">Contact us to ask a question or begin a conversation.</p>
+            <a id="contact-us-btn" href="contactus.html" class="btn btn-warning">Contact</a>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="container-fluid">
+    <div class="row bg-footer">
+        <div class="col-md-6 wow fadeIn">
+            <p class="text-gray" id="serve">Aksamaya ready to serve.</p>
+            <p class="text-gray" id="icon">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </p>
+            <p class="text-gray" id="copyright">© Copyright 2018 Aksamaya Studio - All Right Reserved</p>
+        </div>
+        <div class="col-md-3 wow fadeIn">
+            <p class="text-gray" id="address-title">Address</p>
+            <address class="text-gray" id="address">
+                Jawa Barat<br>
+                Bandung<br>
+                Setrasari Mall C1 No. 63<br>
+                Sukagalih, Sukajadi.<br>
+                40164
+            </address>
+        </div>
+        <div class="col-md-3 wow fadeIn">
+            <a href="https://www.google.co.id/maps/place/Aksamaya+Studio/@-6.881723,107.5814885,18.75z/data=!4m5!3m4!1s0x0:0x59bb4dd4d17c44e7!8m2!3d-6.8819446!4d107.5817989"><img class="img-fluid" width="75%" src="picture/address.png" id="footer-img"></a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/melvin.js"></script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript">
+    new WOW().init();
+</script>
+
+</body>
+</html>
